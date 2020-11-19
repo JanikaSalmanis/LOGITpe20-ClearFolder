@@ -8,6 +8,7 @@ namespace Createdirectory
         static void Main(string[] args)
         {
             CreatefolderOne();
+            CrateFolderTwo();
         }
 
         public static void CreatefolderOne()
@@ -20,6 +21,21 @@ namespace Createdirectory
             {
                 Console.WriteLine("The folder already exists.");
             }else
+            {
+                Directory.CreateDirectory(fullFolderPath);
+            }
+        }
+        public static void CrateFolderTwo()
+        {
+            string roothPath = @"C:\Users\opilane\samples";
+            string folderName = "playerTwo";
+            string fullFolderPath = Path.Combine(roothPath, folderName);
+            Console.WriteLine(fullFolderPath);
+            if (Directory.Exists(fullFolderPath))
+            {
+                Console.WriteLine("The folder already exists.");
+            }
+            else
             {
                 Directory.CreateDirectory(fullFolderPath);
             }

@@ -10,3 +10,4 @@ C:\Users\opilane\source\repos\ClearFolder\Createdirectory\obj\Debug\netcoreapp3.
 C:\Users\opilane\source\repos\ClearFolder\Createdirectory\obj\Debug\netcoreapp3.1\Createdirectory.dll
 C:\Users\opilane\source\repos\ClearFolder\Createdirectory\obj\Debug\netcoreapp3.1\Createdirectory.pdb
 C:\Users\opilane\source\repos\ClearFolder\Createdirectory\obj\Debug\netcoreapp3.1\Createdirectory.genruntimeconfig.cache
+C:\Users\opilane\source\repos\ClearFolder\Createdirectory\obj\Debug\netcoreapp3.1\Createdirectory.csprojAssemblyReference.cache
